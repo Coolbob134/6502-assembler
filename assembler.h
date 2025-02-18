@@ -27,7 +27,7 @@ int writeoperand(char operand[],unsigned char *memaddress);
 
 
 
-int assemble(int argc, char **argv)
+int assemble(int argc, char **argv) //Call from main C file
 {
     unsigned char* mem = (unsigned char*)malloc(0xFFFF*sizeof(char));
 
